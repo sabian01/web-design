@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-text {
+    color: gray;
+}
+
+.tekst-boksi{ 
+    width: 340px;
+    height: 30px;
+    border-color: rgb(21, 105, 249);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.pershkrim {
+    color: gray;
+}
+
+.butoni{ 
+    background-color: rgb(21, 105, 249);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 340px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
