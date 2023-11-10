@@ -1,0 +1,16 @@
+.logo { 
+  display: block;
+  margin-left: 65px;
+  width: 200px;
+  margin-bottom: -20px;
+}
+
+.search-box {
+  display: block;
+  width: 320px;
+  height: 38px;
+  border-radius: 20px;
+  border-style: solid;
+  padding-left: 10px;
+}
+
