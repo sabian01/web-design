@@ -1,0 +1,60 @@
+
+.mbajtesi-kopertines { 
+    margin-bottom: 10px;
+  }
+
+
+  .kopertina {
+    width: 100%;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  /*
+  .video-template {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 300px;
+  }
+  */
+
+  .video-info-grid { 
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+
+
+  .foto-profili { 
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  
+  .titulli {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .autori {
+    color: rgb(93, 93, 93);
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .statistikat { 
+    color: rgb(93, 93, 93);
+    font-size: 16px;
+  }
+
+
+  .video-grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
+
