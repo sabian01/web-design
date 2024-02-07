@@ -1,0 +1,17 @@
+.mollekuqe { 
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 50px;
+  cursor: pointer;
+  transition: width 2s,
+  opacity 2s;
+
+}
+
+.mollekuqe:hover {
+  width: 300px;
+}
+
+.mollekuqe:active {
+  opacity: 0;
+}
