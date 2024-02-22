@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Website</title>
+    <link rel="stylesheet" href="assets/css/navbar.css">
+
+    <style>
+
+        body{ 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .login-form {
+            display: flex;
+            height: 350px;
+            width: 700px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+
+        .photo{
+            width: 100%;
+        }
+
+
+        .left-side {
+            display: flex;
+            flex: 1;
+           
+        }
+
+        .right-side {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(127, 212, 255);
+            padding: 20px 20px;
+        }
+
+        .right-inside {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-title {
+            margin-bottom: 40px;
+            font-size: 30px;
+
+        }
+
+     
+        .input {
+           border: none;
+           padding: 15px;
+           width: 250px;
+           border-radius: 20px;
+
+           
+           margin-bottom: 20px;
+        }
+
+        .login-button {
+            background-color: rgb(35, 127, 255);
+            color: white;
+            border: none;
+            padding: 10px 115px;
+            border-radius: 30px;
+            font-size: 18px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="login-form">
+
+        <div class="left-side">
+            <img src="assets/img/login-photo.jpg" class="photo">
+        </div>
+
+        <div class="right-side">
+
+
+            <div class="right-inside">
+
+                <h2 class="login-title">Login</h2>
+                <input type="text" placeholder="Email"
+                class="input">
+
+                <input type="password" placeholder="Password"
+                class="input">
+                <button class="login-button">Log in</button>
+            </div>
+            
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+    
+</body>
+</html>

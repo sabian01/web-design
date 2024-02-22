@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+
+  <style>
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .login-form {
+      box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+      height: 380px;
+      width: 410px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .social-buttons{
+      margin-bottom: 15px;
+    }
+
+    .facebook-button {
+      background-color: rgb(19, 90, 255);
+      color: white;
+      width: 120px;
+      height: 35px;
+      font-size: 16px;
+      border: none;
+      border-radius: 7px;
+      margin-right: 17px;
+    }
+
+    .facebook-icon {
+      width: 15px;
+    }
+
+    .google-button {
+      width: 120px;
+      height: 35px;
+      font-size: 16px;
+      border: none;
+      border-radius: 7px;
+    }
+
+    .google-icon {
+      width: 18px;
+      vertical-align: top;
+
+    }
+
+    .input-title {
+      margin-bottom:2px;
+      color: gray;
+    }
+
+    .email-input {
+      width: 250px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      border: 2px solid gray;
+      border-radius: 7px;
+    }
+
+    .login-button {
+      margin-top: 30px;
+      padding: 10px 110px;
+      border-radius: 10px;
+      font-size: 16px;
+      background-color: rgb(27, 111, 255);
+      color: white;
+      border: none;
+
+    }
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="login-form">
+
+    <h1>Login Form</h1>
+
+    <!--Social Buttons-->
+    <div class="social-buttons">
+
+        <button class="facebook-button">
+        <img src="../assets/img/facebook-icon.png" 
+        class="facebook-icon">
+        Facebook
+        </button>
+
+        <button class="google-button">
+        <img src="../assets/img/google-icon.png" 
+        class="google-icon">
+          Google
+        </button>
+
+    </div><!--Social Buttons End-->
+
+    <div class="input-container">
+      <p class="input-title">Username or Email</p>
+      <input type="text" class="email-input">
+    </div>
+
+    <div class="input-container">
+      <p class="input-title">Password</p>
+      <input type="text" class="email-input">
+    </div>
+   
+
+    <button class="login-button">
+      Log in
+    </button>
+
+
+
+  </div><!--Login Form End-->
+  
+</body>
+</html>
