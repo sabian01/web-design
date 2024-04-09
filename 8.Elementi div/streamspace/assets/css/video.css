@@ -1,0 +1,46 @@
+
+.video-template {
+  display: inline-block;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.cover {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.channel-container {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.channel-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.stats-container {
+  display: inline-block;
+  width: 240px;
+}
+
+
+
+.titulli,.channel,.statistics {
+  margin: 0;
+
+}
+
+.titulli {
+  margin-bottom: 10px;
+}
+
+.channel, .statistics {
+  margin-bottom: 5px;
+  color: grey;
+}
+

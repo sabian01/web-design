@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  height: 60px;
+  background-color: whitesmoke;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.434);
+}
+
+.left-side {
+  display: flex;
+
+  width: 200px;
+  align-items: center;
+}
+.streamspace-logo {
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.title {
+  color: rgb(36, 131, 255);
+  font-weight: bold;
+
+}
+
+
+.center {
+  display: flex;
+
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbox {
+  width: 540px;
+  height: 30px;
+  border: none;
+  padding-left: 10px;
+  font-size: medium;
+  box-shadow: inset 0px 0px 4px rgba(0, 110, 255, 0.5);
+}
+
+.search-button{
+  height: 32px;
+  border: none;
+  background-color: white;
+}
+.search-icon {
+  height: 27px;
+}
+
+
+.right-side {
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-icon {
+  height: 18px;
+}

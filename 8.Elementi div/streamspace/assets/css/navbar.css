@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(26, 167, 236);
+  flex-direction: row;
+  height: 70px;
+}
+
+.left-side {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.title {
+  color: white;
+  
+}
+
+.center{
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbar{
+  width: 600px;
+  height: 30px;
+  border: none;
+  padding: 3px 10px;
+ 
+  border-bottom-left-radius:7px ;
+  border-top-left-radius: 7px;
+  box-shadow: inset 0px 0px 4px rgba(28, 194, 255, 0.5);
+}
+
+.search-button {
+  background-color: white;
+  border: none;
+  width: 65px;
+  height: 36px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: inset 0px 0px 4px rgba(28, 194, 255, 0.5);
+}
+
+
+.search-icon {
+  height: 30px;
+}
+
+.voice-search-icon {
+  height: 37px;
+  margin-left: 30px;
+}
+
+.right-side {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emri {
+  color: white;
+}
+
+.profile-icon {
+  height: 20px;
+ }

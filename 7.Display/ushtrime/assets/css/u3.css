@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+}
+
+.titulli { 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: gainsboro;
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 5px;
+}
+
+.emer-input { 
+   width: 100px;
+}
+
+.mbiemer-input { 
+  width: 100px;
+}
+
+.email-input {
+  display: block;
+  width: 220px;
+}
+
+.sign-up-button { 
+  display: block;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.sign-up-button:hover { 
+  opacity: 0.7;
+}
+

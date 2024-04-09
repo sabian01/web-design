@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    .sidebar {
+      font-family: Arial, Helvetica, sans-serif;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 200px;
+      background-color: rgb(66,69,73);
+      padding: 20px;
+    }
+
+    .leader-title, .members-title {
+      font-weight: bold;
+      color: white;
+      margin-top:20px;
+      margin-bottom: 20px;
+    }
+
+    .member-template {
+      display: flex;
+      align-items: center;
+      margin-top: 12px;
+      margin-bottom: 15px;
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .profile img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .profile p {
+      margin: 0;
+    }
+
+    .name {
+      color: white;
+      font-size: 18px;
+      margin-left: 20px;
+
+    }
+
+    .online {
+      color: rgb(15, 162, 79);
+      font-size: 14px;
+    }
+
+    .offline {
+      opacity: 0.5;
+      color: white;
+    }
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+
+
+      <p class="leader-title">
+        GROUP LEADER
+      </p>
+
+      <div class="member-template">
+        <div class="profile">
+          <img src="assets/lion.png">
+          <p class="online">online</p>
+        </div>
+       
+        <p class="name">Hoods</p>
+        
+      </div>
+
+    <p class="members-title">
+      MEMBERS
+    </p>
+
+
+    <div class="member-template">
+      <div class="profile">
+        <img src="assets//fox.png">
+        <p class="online">online</p>
+      </div>
+     
+      <p class="name">Wumpus</p>
+      
+    </div>
+
+    <div class="member-template">
+      <div class="profile">
+        <img src="assets/rino.png">
+        <p class="online">online</p>
+      </div>
+      <p class="name">Chad</p>
+    </div>
+
+    <div class="member-template">
+      <div class="profile">
+        <img src="assets/tiger.png">
+        <p class="online">online</p>
+      </div>
+      <p class="name">Mallow</p>
+    </div>
+
+
+    <p class="members-title">
+      OFFLINE
+    </p>
+
+
+    <div class="member-template offline">
+      <div class="profile">
+        <img src="assets/penguin.png">
+        <p class="offline-text">offline</p>
+      </div>
+      <p class="name">Face</p>
+    </div>
+  </div>
+  
+</body>
+</html>

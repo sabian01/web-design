@@ -1,0 +1,32 @@
+
+.video-template {
+  display: inline-block;
+  width: 300px;
+}
+
+.cover {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.channel-container {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.channel-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+
+.stats-container {
+  display: inline-block;
+  width: 240px;
+}
+
+.stats-container p {
+  margin: 0;
+}
