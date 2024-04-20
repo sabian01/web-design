@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shporta</title>
+
+  <style>
+    body { 
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+    .shiko-shporten { 
+      background-color:rgb(22, 115, 255);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }
+    .shiko-shporten:hover { 
+      background-color: rgb(55, 135, 255);
+    }
+
+    .shiko-shporten:active {
+       background-color: rgb(104, 164, 254);
+    }
+
+    .shto-produkt {
+       margin-left: 10px;
+       background-color: lightgreen;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+       transition: background-color 0.15s;
+    }
+
+    .shto-produkt:hover{  
+      background-color: rgb(107, 194, 107);
+    }
+
+    .shto-produkt:active {
+      background-color: rgb(73, 154, 73);
+    }
+
+
+    .reset-button { 
+      margin-left: 10px;
+      background-color: rgb(228, 69, 69);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transition: background-color 0.15s;
+      cursor: pointer;
+    }
+
+    .reset-button:hover {
+      background-color: rgb(201, 56, 56);
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <button class="shiko-shporten" onclick="alert('Sasia e shportes = ' +shporta);">
+    Shiko shporten
+  </button>
+
+  <button class="shto-produkt" onclick="
+  shporta = shporta + 1;
+  alert('1 produkt u shtua ne shporte.'); ">
+    Shto ne shporte
+  </button>
+
+  <button class="shto-produkt" onclick="
+  shporta = shporta + 2 ;
+  alert('2 produkte u shtuan ne shporte.');">
+    Shto 2
+  </button>
+
+  <button class="shto-produkt" onclick="
+  shporta = shporta+ 3;
+  alert('3 produkte u shtuan ne shporte.');">
+    Shto 3 
+  </button>
+
+  <button class="reset-button" onclick="
+  shporta = 0 ; 
+  alert('Shporta u be reset.');">
+  Reset
+  </button>
+
+
+  <script>
+    let shporta= 0;
+  </script>
+  
+</body>
+</html>
